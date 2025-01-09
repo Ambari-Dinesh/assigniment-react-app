@@ -1,0 +1,82 @@
+.contact-inner-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+
+}
+.contact-sub-bg{
+    background-color:#ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    width: 30%;
+}
+.contact-main-bg{
+    background-color: #fffbfb;
+    height: 100%;
+    margin: 20px;
+}
+.contact-name{
+    width: 85%;
+    margin-bottom: 30px;
+    height: 2.3rem;
+    background-color: rgb(228, 237, 237);
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+
+}
+.contact-input-bg{
+    max-width: 85%;
+    text-align: center;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.contact-email{
+    width: 48%;
+    height: 2.05rem;
+    background-color: rgb(228, 237, 237);
+    border: 0px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.contact-phno{
+    width: 48%;
+    margin-left: 5px;
+    height: 2.05rem;
+    background-color: rgb(228, 237, 237);
+    border: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    
+}
+.contact-feedback{
+    height: 7rem;
+    width: 85%;
+    margin-bottom: 20px;
+    background-color: rgb(228, 237, 237);
+    border: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    text-align: start;
+    padding-top: 0px;
+}
+.contact-button{
+    
+    align-self: flex-start;
+    justify-content: flex-start;
+    height: 2.5rem;
+    width: 35%;
+    background-color: #d0734e;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 3px;
+}

@@ -1,0 +1,72 @@
+.project1-bg{
+    background-image: url(../Images/img\(1\).png);
+    width: 16%;
+    height: 300px;
+    background-size: cover;
+    margin: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.project1-inner-bg{
+    background-color: #ffffff;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    padding: 10px;
+    
+    
+    
+}
+.project1-para{
+    margin: 0px;
+    padding: 0px;
+}
+.projects-sub-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media(max-width:780px){
+    .projects-sub-bg{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.project2-bg{
+    background-image: url(../Images/img4.png);
+    width: 16%;
+    height: 300px;
+    background-size: cover;
+    margin: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.project3-bg{
+    background-image: url(../Images/img5.png);
+    width: 16%;
+    height: 300px;
+    background-size: cover;
+    margin: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.para{
+    color: red;
+}

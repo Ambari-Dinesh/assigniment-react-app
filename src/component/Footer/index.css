@@ -1,0 +1,27 @@
+
+.footer-bg{
+    background-color: #1e314d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 98%;
+    padding: 30px;
+}
+.footer-para{
+    color: #ffffff;
+    text-align: start;
+}
+.footer-logo-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 20%;
+}
+.footer-inner-bg{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

@@ -1,0 +1,16 @@
+.service-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-left: 150px;
+    margin-right: 250px;
+    padding: 50px;
+}
+.service-main-bg{
+    padding-top: 40px;
+}
+.service-head{
+    font-size: 39px;
+}

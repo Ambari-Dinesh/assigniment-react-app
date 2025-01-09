@@ -1,0 +1,30 @@
+.main-about-bg{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+}
+.about-para{
+    padding: auto;
+}
+.about-button{
+    border: 0px;
+    width: 10rem;
+    background-color: #0a2b3d;
+    color: #ffffff;
+    height: 2.5rem;
+    border-radius: 3px;
+}
+.about-image{
+    height: 400px;
+}

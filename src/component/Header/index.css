@@ -1,0 +1,81 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    
+  }
+  
+  .header-logo img {
+    max-height: 50px;
+    width: auto;
+    padding-left: 90px;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    padding-right: 90px;
+  }
+  
+  .header-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-li {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0A2C3D;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .header-nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .header-nav.open {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .header-ul {
+      flex-direction: column;
+      gap: 10px;
+      background-color: #ffffff;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .header-li {
+      text-align: center;
+    }
+  }
+  
